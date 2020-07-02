@@ -1,1 +1,163 @@
-<h1> This is a github website</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First HTML Pages</title>
+  </head>
+
+  <body>
+    <!--Html comment-->
+    <!--h1 and h6 can be used as headings-->
+    <a href="blog.html">Go to blog</a>
+    <hr>
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading FIve</h5>
+    <h6>Heading Six</h6>
+
+    <!--paragraph-->
+    <p>
+      Lorem ipsum dolor sit amet <strong>consectetur adipisicing elit.</strong> Nesciunt qui nostrum voluptate aliquam nemo repudiandae voluptatibus, inventore veritatis autem nam repellendus saepe tempore, <em>porro cum dignissimos</em> nobis ad iusto ab.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit, <a href="https://www.baidu.com" target="_blank">amet consectetur</a> adipisicing elit. Nemo, voluptate?
+      <!--target attributes will stop the user from having to leave your site, it opens the site in a new tab-->
+    </p>
+
+    <!--List-->
+    <ul>
+      <!--unordered list-->
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ul>
+
+    <ol>
+      <!--ordered list-->
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ol>
+
+    <!--Table-->
+    <table>
+      <thead>
+        <!--table row-->
+        <tr>
+          <!--th stands for table heading-->
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>          
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <!--td stands for table data-->
+            <td>Genius Tintin</td>
+            <td>GT@163.com</td>
+            <td>35</td>
+          </tr>
+          <tr>
+            <!--td stands for table data-->
+            <td>Brain Jobs</td>
+            <td>BJ@163.com</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <!--td stands for table data-->
+            <td>Caddy Johns</td>
+            <td>CJ@163.com</td>
+            <td>15</td>
+          </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <hr><!--Horizontal Rule: a line that goes alone the page-->
+    <br>
+
+    <!--Forms-->
+    <form action="process.php" method="GET">
+      <div>
+        <label>First Name</label>
+        <input type="text" name="firstName" placeholder="Enter First Name">
+      </div>
+      <br>
+
+      <!--Input box-->
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="lastName">
+      </div>
+      <br>
+
+      <!--Input email box-->
+      <div>
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+
+      <!--Input variational size box-->
+      <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+      </div>
+      <br>
+
+      <!--Selection box-->
+      <div>
+        <label>Gender</label>
+        <select name="Gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <br>
+
+      <!--Number box with initial value-->
+      <div>
+        <label>Age</label>
+        <input type="number" name="age" value="30">
+      </div>
+      <br>
+
+      <!--Date box-->
+      <div>
+        <label>Birthday</label>
+        <input type="date" name="birthday">
+      </div>
+      <br>
+
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <!--Button-->
+    <button>Click Me</button> <!--Needs JS (to make it dynamic)-->
+    
+    <br>
+
+    <!--Image!!-->
+    <a href="images/IMG_2149.JPG" target="_blank">
+      <img src="images/IMG_2149.JPG" alt="My Sample Image" width="200"><!--if it can find the image it will display the text-->
+    </a>
+    
+    <!--Quotations-->
+    <blockquote cite="//https://www.google.com">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, tenetur nihil. Nihil similique provident pariatur sed praesentium earum non magni natus sapiente rem repellendus tempora inventore laudantium impedit, voluptatibus aspernatur?
+    </blockquote>
+
+    <p>
+      The <abbr title="World WIde Web">www</abbr> id awesome
+    </p>
+
+
+
+    <div style="margin-top: 500px"></div>
+  </body>
+
+</html>
