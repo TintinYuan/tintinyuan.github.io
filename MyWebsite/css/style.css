@@ -31,7 +31,6 @@ body{
 
 #navbar li{
     display: inline; /*makes the navbar in one line*/
-
 }
 
 /*change the navbar color to make it more friendly*/
@@ -39,7 +38,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 #navbar a:hover{
