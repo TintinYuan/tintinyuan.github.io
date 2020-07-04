@@ -33,8 +33,8 @@ body{
     top: 0px;
 }
 
-#st{
-    color: aqua;
+.st{
+    color: rgb(255, 217, 0);
 }
 
 .navbar{
@@ -90,7 +90,7 @@ body{
     padding-top: 69px;
 }
 
-#showcase{
+.showcase{
     background-image: url(../images/showcase.jpeg);
     background-position: center center;
     background-size: cover;
@@ -100,18 +100,22 @@ body{
     text-align: center;
 }
 
-#showcase h1{
+.showcase h1{
     color: azure;
     font-size: 45px;
     line-height: 1.6em;
     padding-top: 30px;
 }
 
-#showcase h2{
+.showcase h2{
     color: azure;
     font-size: 25px;
     line-height: 1.6em;
     padding-top: 0px;
+}
+
+#dots-ul li{
+    margin-bottom: 0.8em;
 }
 
 #index-main{
@@ -130,6 +134,9 @@ body{
     box-sizing: border-box;
 }
 
+.fill-blank{
+    margin-top: 100px;
+}
 
 .footer{
     background-color: #333;
