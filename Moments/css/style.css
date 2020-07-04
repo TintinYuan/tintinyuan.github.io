@@ -13,6 +13,17 @@ body{
     overflow: hidden;
 }
 
+.logo{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    margin: 0px;
+}
+
+.logo :hover{
+    filter: brightness(120%);
+}
+
 .header{
     background-color: dodgerblue;
     color: floralwhite;
@@ -21,9 +32,14 @@ body{
     top: 0px;
 }
 
+#st{
+    color: aqua;
+}
+
 .navbar{
     background-color: #333333;
     color: white;
+    cursor: auto;
 }
 
 .navbar ul{
@@ -50,10 +66,20 @@ body{
     color: aquamarine;
 }
 
+.current a{
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.current a:hover{
+    color: aquamarine;
+}
+
 #showcase{
     background-image: url(../images/showcase.jpeg);
-    background-position: center right;
+    background-position: center center;
     background-size: cover;
+    
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
