@@ -24,7 +24,7 @@ body{
 
 .header .logo{
     top: 10px;
-    right: 10px;
+    left: 10px;
     position: absolute;
 }
 
