@@ -18,13 +18,14 @@ body{
     background-color: dodgerblue;
     color: floralwhite;
     text-align: center;
+    top: 0px;
     position: sticky;
 }
 
-.logo{
-    right: 10px;
+.header .logo{
     top: 10px;
-    margin: 0px;
+    right: 10px;
+    position: absolute;
 }
 
 .header .logo :hover{
@@ -125,7 +126,7 @@ body{
 }
 
 .fill-blank{
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .footer{
