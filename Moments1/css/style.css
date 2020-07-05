@@ -14,24 +14,21 @@ body{
     overflow: hidden;
 }
 
+.header{
+    background-color: dodgerblue;
+    color: floralwhite;
+    text-align: center;
+    position: sticky;
+}
+
 .logo{
-    position: fixed;
     right: 10px;
     top: 10px;
     margin: 0px;
 }
 
-.logo :hover{
+.header .logo :hover{
     filter: brightness(120%);
-}
-
-.header{
-    background-color: dodgerblue;
-    color: floralwhite;
-    text-align: center;
-    top: 0px;
-    position: fixed;
-    width: 100%;
 }
 
 .st{
@@ -42,7 +39,6 @@ body{
     background-color: #333333;
     color: white;
     cursor: auto;
-    position: fixed;
     width: 100%;
     overflow: auto;
     white-space: nowrap;
@@ -88,7 +84,7 @@ body{
     background-image: url(../images/showcase.jpeg);
     background-position: center center;
     background-size: cover;
-    margin-top: 55px;
+    /*margin-top: 55px;*/
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
@@ -129,7 +125,7 @@ body{
 }
 
 .fill-blank{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .footer{
