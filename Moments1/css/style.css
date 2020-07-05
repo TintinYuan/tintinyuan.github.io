@@ -50,8 +50,9 @@ body{
     width: max-content;
 }
 
-.navbar li{
+.navbar ul li{
     display: inline-block;
+    padding: 0px;
 }
 
 .navbar a{
@@ -74,6 +75,7 @@ body{
     color: aquamarine;
     font-weight: bold;
 }
+
 
 .current a:hover{
     color: aquamarine;
