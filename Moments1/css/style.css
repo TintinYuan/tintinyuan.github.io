@@ -45,12 +45,14 @@ body{
 }
 
 .navbar ul{
+    text-align: center;
     padding: 0;
     list-style: square;
     
 }
 
 .navbar li{
+    
     display: inline-block;
     padding: 0px;
 }
@@ -94,7 +96,7 @@ body{
 
 .showcase h1{
     color: azure;
-    font-size: 4em;
+    font-size: 3.2em;
     line-height: 1.6em;
     padding-top: 30px;
 }
