@@ -46,11 +46,13 @@ body{
 
 .navbar ul{
     padding: 0;
-    list-style: none;
+    list-style: square;
+    white-space: nowrap;
+    overflow-inline: auto;
 }
 
 .navbar ul li{
-    display: inline-block;
+    display: inline;
     padding: 0px;
 }
 
