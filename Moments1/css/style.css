@@ -51,8 +51,8 @@ body{
     overflow-inline: auto;
 }
 
-.navbar ul li{
-    display: inline;
+.navbar li{
+    display: inline-block;
     padding: 0px;
 }
 
