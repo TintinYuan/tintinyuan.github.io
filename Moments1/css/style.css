@@ -47,7 +47,6 @@ body{
 .navbar ul{
     padding: 0;
     list-style: none;
-    width: max-content;
 }
 
 .navbar ul li{
