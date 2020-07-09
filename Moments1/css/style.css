@@ -157,7 +157,11 @@ body{
         width: 100%;
         float: none;
     }
-    .images-box{
+    #img1{
+        width: 100%;
+        float: none;
+    }
+    #img2{
         width: 100%;
         float: none;
     }
