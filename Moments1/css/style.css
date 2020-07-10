@@ -47,25 +47,31 @@ body{
 .navbar ul{
     text-align: center;
     padding: 0;
-    list-style: square;
-    
+    margin: 0;
+    list-style: none;
+    height: 100%;
 }
 
-.navbar li{
+.navbar ul li{
     
     display: inline-block;
+    margin-right: -4px;
+    width: 25%;
     padding: 0px;
 }
 
-.navbar a{
-    color: white;
+.navbar ul li a{
+    color: azure;
     text-decoration: none;
-    padding-right: 8px;
-    margin: 0px;
-    font-size: 1.2em;
+    margin-block: 5px;
+    display: block;
+    text-align: center;
+    padding: 6px;
+    font-size: 1.3em;
 }
 
 .navbar a:hover{
+    background-color: dimgrey;
     color: yellow;
 }
 
@@ -73,8 +79,9 @@ body{
     color: aquamarine;
 }
 
-.current a{
-    color: aquamarine;
+.navbar .current a{
+    background-color: dimgray;
+    color:aquamarine;
     font-weight: bold;
 }
 
