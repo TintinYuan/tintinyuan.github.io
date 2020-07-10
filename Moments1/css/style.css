@@ -63,7 +63,6 @@ body{
 .navbar ul li a{
     color: azure;
     text-decoration: none;
-    margin-block: 5px;
     display: block;
     text-align: center;
     padding: 6px;
@@ -95,7 +94,7 @@ body{
     background-image: url(../images/showcase.jpeg);
     background-position: center center;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 20px;
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
@@ -141,7 +140,7 @@ body{
 }
 
 .fill-blank{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .footer{
