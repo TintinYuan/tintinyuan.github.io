@@ -176,11 +176,7 @@ body{
         width: 100%;
         float: none;
     }
-    #img1{
-        width: 100%;
-        float: none;
-    }
-    #img2{
+    .images-box .img{
         width: 100%;
         float: none;
     }
