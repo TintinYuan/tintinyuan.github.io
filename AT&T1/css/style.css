@@ -190,9 +190,9 @@ body{
         width: 100%;
         float: none;
     }
-    .navbar ul li{
+    /* .navbar ul li{
         width: max-content;
-    }
+    } */
     .navbar ul li a{
         padding-left: 8px;
         padding-right: 8px;
